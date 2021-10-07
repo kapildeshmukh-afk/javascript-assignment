@@ -1,0 +1,21 @@
+Q1). Difference between let and var.
+Ans)  The main difference is scoping rules.
+                i) var keyword used to assign global variable and accessible by any functions.
+                            example: 
+                                             
+    			console.log(x);
+			var x=5;
+			console.log(x);
+			Output:
+			undefined
+			5
+               ii) let keyword used to assign local variable and it can only be accesible inside the function.
+                            example:
+                                                 console.log(x);
+                                                 let x=5;
+			console.log(x);
+			Output:
+			Error
+
+Q2.) Why are null, array printed as object type in console.
+Ans) A null is an object. Its type is object . null is a special value meaning "no value.In JavaScript, arrays are technically objects; just         with special behaviours and abilities. For example, arrays have a Array. ... To differentiate an Array object from an Object                   object, we can use the Array.
